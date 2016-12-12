@@ -30,4 +30,7 @@ The challenge, initially, was getting used to working with Angular in that this 
 
 This is the simplest of Angular implementations in that there are no use of states or stateParams or routing. It's just a single page and a single JS file and controller controlling that page. Still, though, since we'd only just been introduced to Angular, it was tough remembering when and where we were to use $scope variables. Once we got our heads around that it got a bit easier to start working on the logic of the game.
 
-And once we were into the logic then my old nemesis, the nested if statement and for loop, reared it's ugly head. As a new programmer this seems to be the most difficult thing to keep straight in my head.
+And once we were into the logic then my old nemesis, the nested if statement and for loop, reared it's ugly head. As a new programmer this seems to be the most difficult thing to keep straight in my head. Specifically, I had a problem with placement of the final card push so that on the bigger board sizes the board would be split up into different numbers of rows so that a user doesn't have to scroll left and right to play the game.
+
+### Closing Thoughts
+I was pretty happy with the refactoring that I did with the code on this game. But I know that it can be refactored even more. Whether or not I go back and do that...?
